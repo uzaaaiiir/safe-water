@@ -136,7 +136,7 @@ body {
 .video {
     /* height: 65vh; */
     width: 80%;
-    margin: 0px auto 50px auto;
+    margin: 0px auto 65px auto;
     color: #111827;
     display: flex;
     flex-direction: column;
@@ -147,14 +147,15 @@ body {
 .video h1 {
     text-align: center;
     font-size: 48px;
-    margin-bottom: 35px;
+    margin-bottom: 55px;
     /* letter-spacing: -0.5; */
 }
 
 .page-footer {
-    color: #111827;
-    font-weight: 600;
+    color: #fafafa;
+    font-weight: 500;
     text-align: center;
-    background-color: rgba(107, 114, 128, 0.6);
+    /* background-color: rgba(107, 114, 128, 0.6); */
+    background-color: rgba(31, 41, 55, 0.9);
     padding: 25px 0;
 }
