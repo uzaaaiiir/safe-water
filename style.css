@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    color: #fafafa;
+}
+
+/* ------ BACKGROUND HEADER ------ */
+.main-body {
+    background-image: linear-gradient(
+            rgba(50, 50, 50, 0.7),
+            rgba(50, 50, 50, 0.7)
+        ),
+        url(img/water.jpg);
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.main-container {
+    width: 80%;
+    margin: auto;
+}
+
+.header-container {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin-bottom: 20px;
+    font-size: 56px;
+}
+
+.header-container blockquote {
+    margin-bottom: 45px;
+}
+
+/* --DONATE BUTTON -- */
+.donate-button:link,
+.donate-button:visited {
+    color: #111827;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px 30px;
+    border-radius: 5%;
+    background-color: #fafafa;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.donate-button:hover,
+.donate-button:active {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+/* ------ NAV-BAR ------ */
+.nav-bar {
+    /* width: 80%;
+    margin: auto; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+}
+
+.nav-bar--logo {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.nav-bar-sections {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-bar a:link,
+.nav-bar a:visited {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.nav-bar a:hover,
+.nav-bar a:active {
+    font-weight: 600;
+}
+
+/* ----- STATISTICS ----- */
+.statistics {
+    /* height: 100vh; */
+    /* margin: 0 auto; */
+    color: #171717;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* background-color: #d4d4d4; */
+}
+
+.statistics h1 {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 25px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    padding: 10px 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 45px;
+    margin: 0 5%;
+}
+
+.card {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.video {
+    /* height: 65vh; */
+    width: 80%;
+    margin: 0px auto 50px auto;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+.video h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 35px;
+    /* letter-spacing: -0.5; */
+}
+
+.page-footer {
+    color: #111827;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(107, 114, 128, 0.6);
+    padding: 25px 0;
+}
